@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif
 }
 
 .box {
@@ -21,10 +21,25 @@
 }
 
 button {
-    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    background-color: #8B008B;
+    border-radius: 10px;
     width: 80px;
     height: 60px;
     cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.yes:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.no:hover {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
 }
 
 h1 {
