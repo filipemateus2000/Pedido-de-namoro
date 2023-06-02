@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif
 }
 
-.box {
+section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -21,21 +21,31 @@
 }
 
 button {
-    border-color: #fff;
-    color: #fff;
-    background-color: #8B008B;
-    border-radius: 10px;
-    width: 80px;
+    font-size: 20px;
+    border-color: red;
+    color: #4B0082;
+    background-color: #C71585;
+    border-radius: 40px;
+    width: 90px;
     height: 60px;
     cursor: pointer;
-    transition: 0.5s;
-    
+    transition: all 0.5s; 
+}
+
+.buttons {
+    display: flex;
+} 
+
+.yes {
+    padding-right: 60px;
+
 }
 
 .yes:hover {
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(0.6);
     transform: scale(1.5);
 }
+
 
 .no:hover {
     -webkit-filter: blur(5px);
@@ -46,3 +56,6 @@ h1 {
     color: red;
 }
 
+i {
+    padding: 5px;
+}
